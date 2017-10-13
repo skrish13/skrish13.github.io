@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>about</title>
+    <description></description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 13 Oct 2017 04:15:58 +0000</pubDate>
+    <lastBuildDate>Fri, 13 Oct 2017 04:15:58 +0000</lastBuildDate>
+    <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>Blog is up</title>
+        <description>&lt;p&gt;I’ll keep this short. The last time I tried this (almost putting up the blog) was 2 months ago and ended up procrastinating royally. Had tried to put it along with a couple of posts but was getting stuck at some point and taking lite (read ‘giving up’ :P). So, just this post for now.&lt;/p&gt;
+
+&lt;p&gt;Yeah, so the blog is up. A small background info post will follow soon. Mostly going to keep it Machine Learning (read Deep Learning :P) related Research and Engineering (Systems) posts only. Although would like to write about general “blogging” and “life” topics, but mostly No.&lt;/p&gt;
+
+&lt;p&gt;Adios.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
+        <link>http://localhost:4000/articles/2017-10/phew-finally</link>
+        <guid isPermaLink="true">http://localhost:4000/articles/2017-10/phew-finally</guid>
+        
+        
+        <category>intro</category>
+        
+      </item>
+    
+  </channel>
+</rss>
