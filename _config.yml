@@ -14,7 +14,7 @@ keywords: []
 # Jekyll configuration
 ####################################
 #
-timezone:          GMT
+timezone:          IST
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
@@ -36,7 +36,7 @@ owner:
   name: Krish
   avatar: 
   job: ""
-  bio: "More of a personal place to put out ideas and information. Read at your own risk."
+  bio: "More of a space to put out ideas and information. Read at your own risk."
   email: skrish at protonmail dot ch
   disqus-shortname: https-skrish13-github-io
   twitter: skrish_13 #username
