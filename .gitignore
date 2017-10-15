@@ -1,5 +1,6 @@
-#_site
+*~
+_site
+_drafts
 #.sass-cache
 #_config.yml
-_drafts
 #.ruby-version
