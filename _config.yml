@@ -3,7 +3,7 @@
 # Site wide configuration
 ####################################
 #
-title: about
+title: homepage
 email: 
 description: 
 url: https://skrish13.github.io # the base hostname & protocol for your site
@@ -36,14 +36,14 @@ owner:
   name: Krish
   avatar: exploring.jpg
   job: ""
-  bio: "More of a space to put out ideas and information. Read at your own risk."
+  bio: "A space to put out ideas and information. Read at your own risk."
   email: skrish at protonmail dot ch
   disqus-shortname: https-skrish13-github-io
   twitter: skrish_13 #username
   facebook: #username
   google:
     plus: #username
-    analytics: 
+    analytics: UA-109432602-1
     verify:
     ad-client:
     ad-slot:

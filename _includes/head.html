@@ -45,4 +45,8 @@
   <link rel="shortcut icon" href="{{ site.url }}/favicon.ico">
   <!-- 32x32 -->
   <link rel="shortcut icon" href="{{ site.url }}/favicon.png">
+
+	{% if site.google_analytics and jekyll.environment == 'production' %}
+	{% include analytics.html %}
+	{% endif %}
 </head>
