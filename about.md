@@ -24,6 +24,7 @@ If want to get in touch or collaborate please mail me or tweet at me (thanks).
 	- Muktabh Mayank Srivastava\*, Pratyush Kumar\*, Lalit Pradhan\*, **Srikrishna Varadarajan**
 		- Accepted at **NIPS 2017** Workshop - [ML for Health](https://ml4health.github.io/2017/).
 		- [[**_arXiv_**]](https://arxiv.org/abs/1711.07312) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1711-07312) [[**_blog_**]](dentistry.ai)
+
 #### Talks
 
 -  **Multimodal Understanding of Videos using Machine Learning**
