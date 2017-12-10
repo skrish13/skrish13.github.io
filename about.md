@@ -13,23 +13,23 @@ If want to get in touch or collaborate please mail me or tweet at me (thanks).
 #### 2017
 
 - **RADNET: Radiologist Level Accuracy using Deep Learning for HEMORRHAGE detection in CT Scans**
-	- Monika Grewal, Muktabh Mayank Srivastava, Pulkit Kumar\*, **Srikrishna Varadarajan\***
-		- [[**_arXiv_**]](https://arxiv.org/abs/1710.04934) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1710-04934) [[**_blog_**]](http://blog.paralleldots.com/technology/deep-learning/ai-matches-the-accuracy-of-trained-radiologists-for-identifying-brain-hemorrhage-in-a-head-to-head-test/)
+  - Monika Grewal, Muktabh Mayank Srivastava, Pulkit Kumar\*, **Srikrishna Varadarajan\***
+    - [[**_arXiv_**]](https://arxiv.org/abs/1710.04934) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1710-04934) [[**_blog_**]](http://blog.paralleldots.com/technology/deep-learning/ai-matches-the-accuracy-of-trained-radiologists-for-identifying-brain-hemorrhage-in-a-head-to-head-test/)
 
 - **Anatomical labeling of brain CT scan anomalies using multi-context nearest neighbor relation networks**
-	- **Srikrishna Varadarajan**, Muktabh Mayank Srivastava, Monika Grewal\*, Pulkit Kumar\*
-		- [[**_arXiv_**]](https://arxiv.org/abs/1710.09180) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1710-09180) [[**_blog_**]](https://paralleldots.xyz/Anatomical-labeling-of-brain-CT-scan-anomalies-using-multi-context-nearest-neighbor-relation-networks)
+  - **Srikrishna Varadarajan**, Muktabh Mayank Srivastava, Monika Grewal\*, Pulkit Kumar\*
+    - [[**_arXiv_**]](https://arxiv.org/abs/1710.09180) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1710-09180) [[**_blog_**]](https://paralleldots.xyz/Anatomical-labeling-of-brain-CT-scan-anomalies-using-multi-context-nearest-neighbor-relation-networks)
 
 - **Detection of Tooth caries in Bitewing Radiographs using Deep Learning**
-	- Muktabh Mayank Srivastava\*, Pratyush Kumar\*, Lalit Pradhan\*, **Srikrishna Varadarajan**
-		- Accepted at **NIPS 2017** Workshop - [ML for Health](https://ml4health.github.io/2017/).
-		- [[**_arXiv_**]](https://arxiv.org/abs/1711.07312) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1711-07312) [[**_blog_**]](dentistry.ai)
+  - Muktabh Mayank Srivastava\*, Pratyush Kumar\*, Lalit Pradhan\*, **Srikrishna Varadarajan**
+    - Accepted at **NIPS 2017** Workshop - [ML for Health](https://ml4health.github.io/2017/).
+    - [[**_arXiv_**]](https://arxiv.org/abs/1711.07312) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1711-07312) [[**_blog_**]](dentistry.ai)
 
 #### Talks
 
 -  **Multimodal Understanding of Videos using Machine Learning**
-	- Presented @ Workshop on [Multimodality in Embodied Experience Design](http://hcc.uni-bremen.de/codesign2017/workshops/mumbai/)
-	- [INTERACT 2017](https://interact2017.org/) - The 16th IFIP TC.13 International Conference on Human-Computer Interaction, Mumbai, India
+  - Presented @ Workshop on [Multimodality in Embodied Experience Design](http://hcc.uni-bremen.de/codesign2017/workshops/mumbai/)
+  - [INTERACT 2017](https://interact2017.org/) - The 16th IFIP TC.13 International Conference on Human-Computer Interaction, Mumbai, India
 
 ## Contact
 

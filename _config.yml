@@ -1,5 +1,5 @@
 #
-###################################
+####################################
 # Site wide configuration
 ####################################
 #
@@ -36,7 +36,7 @@ owner:
   name: Krish
   avatar: exploring.jpg
   job: ""
-  bio: "A space to put out ideas and information. Read at your own risk."
+  bio: "Deep Learning @Paralleldots, prev @BITS_Pilani. Interests: DL, CV, Medical Imaging, ML, Prog, Metal, GPUs, Multimodality"
   email: skrish at protonmail dot ch
   disqus-shortname: https-skrish13-github-io
   twitter: skrish_13 #username
