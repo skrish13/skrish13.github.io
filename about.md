@@ -27,7 +27,7 @@ If want to get in touch or collaborate please mail me or tweet at me (thanks).
 
 #### Talks
 
--  **Multimodal Understanding of Videos using Machine Learning**
+- **Multimodal Understanding of Videos using Machine Learning**
   - Presented @ Workshop on [Multimodality in Embodied Experience Design](http://hcc.uni-bremen.de/codesign2017/workshops/mumbai/)
   - [INTERACT 2017](https://interact2017.org/) - The 16th IFIP TC.13 International Conference on Human-Computer Interaction, Mumbai, India
 
