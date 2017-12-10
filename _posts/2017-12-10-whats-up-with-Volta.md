@@ -8,7 +8,9 @@ comments: True
 
 Couple of days ago Nvidia released their newest badass PC Graphics card - Titan V, but this time specially geared for AI (deep learning to be precise) purposes. This post summarizes what's in it, remove any false notions from hypes, compare against older cards wrt price point, performance and talk a bit about Google TPUs as well.  Lots of people are getting to DL these days so this post should be useful for them as well. This isnt a tutorial for that, if you are interested in that, look [here](http://timdettmers.com/2014/08/14/which-gpu-for-deep-learning/).
 
-So, Titan V is a Volta architecture based card, previously released in the form of the popular server-based card V100. It follows really similar hardware specs (wrt DL). So, some of the analysis made on Titan V  is applicable to V100 as well (and vice-versa). I'm going to keep the comparisons to PC cards only, so Titan Xp and sometimes 1080Ti (budget pov), won't compare with P100 unless its to prove a point. Get full info on the exact specs by looking for "view full specs" [here](https://www.nvidia.com/en-us/titan/titan-v/)
+### Titan V
+
+So, Titan V is a Volta architecture based card, previously released in the form of the popular server-based card V100. It follows really similar hardware specs (wrt DL). So, some of the analysis made on Titan V  is applicable to V100 as well (and vice-versa). The narrative of the blog sometimes assumes that we're interested in consumer PC cards mainly, so Titan Xp and sometimes 1080Ti (700$), I had to use P100 (15k$) to prove few points because of lack of widespread benchmarks. You can get the full info on the exact specs of Titan V by looking for "view full specs" [here](https://www.nvidia.com/en-us/titan/titan-v/)
 
 ### What has gotten better?
 
@@ -43,19 +45,16 @@ So GDDR5 (1080 and previous) has low memory clock and memory interface, hence th
 
 Little bit of background info before we get into TensorCores, usually people used to train NNs on FP32 (Single Precision) but nowadays single precision also works fine for DL and has led to lot of improvements as Nvidia is exploiting it now. So, all the TeraFlops which they advertise should have a small asterix explaining the context. What they have really improved in this card is exploiting the FP16 by creating the **Mixed Precision** - a matrix multiplication in FP16 and accumulation in FP32 precision. To be more specific, each Tensor Core performs 64 floating point FMA mixed-precision operations per clock. So, when you compare how fast your NN will train, you'll need to take this into consideration when sending inputs.
 
-For example: if you continue training your models on FP32 only, then you arent going to see the 110 TFlops, you're going to get an increase to ~15TFlops (on Titan V) from 12,11.3TFlops (Titan Xp, 1080Ti). Here you can see a table comparing P100 and V100 taken from this great [blog](http://en.community.dell.com/techcenter/high-performance-computing/b/general_hpc/archive/2017/09/27/deep-learning-on-v100) by Dell HPC. Here, "Deep Learning" roughly translates to any method which gives best results for DL purposes. You should read their blog for detailed experiment setups and results numbers. You can also check out this [blog](https://www.xcelerit.com/computing-benchmarks/insights/benchmarks-deep-learning-nvidia-p100-vs-v100-gpu/) by Xcelerit on RNNs and **LSTMs** benchmarking on V100s. The Dell one is for **ResNet** mainly. But remember this before, P100 isn't great, so that number doesnt translate directly to your needs. P100 is worse than 1080Ti wrt FLOPS but not wrt Memory Bandwidth, i'm yet to see DL benchmarks comparing these two. [PS: If you have access to these two (or P100 and TitanXp), please email me, I'd love to find out how 732GB/s fairs against 547GB/s with more FLOPs]
-
+For example: if you continue training your models on FP32 only, then you arent going to see the 110 TFlops, you're going to get an increase to ~15TFlops (on Titan V) from 12,11.3TFlops (Titan Xp, 1080Ti). Here you can see a table comparing P100 and V100 taken from this great [blog](http://en.community.dell.com/techcenter/high-performance-computing/b/general_hpc/archive/2017/09/27/deep-learning-on-v100) by Dell HPC. Here, "Deep Learning" roughly translates to any method which gives best results for DL purposes. You should read their blog for detailed experiment setups and results numbers. You can also check out this [blog](https://www.xcelerit.com/computing-benchmarks/insights/benchmarks-deep-learning-nvidia-p100-vs-v100-gpu/) by Xcelerit on RNNs and **LSTMs** benchmarking on V100s. The Dell one is for **ResNet** mainly. But remember this before, P100 isn't that great, so that number doesnt translate directly to your needs. P100 is worse than 1080Ti wrt FLOPS but not wrt Memory Bandwidth, i'm yet to see DL benchmarks comparing these two. [PS: If you have access to these two (or P100 and TitanXp), please email me, I'd love to find out how 732GB/s fairs against 547GB/s with more FLOPs]
 
 
 ![V100 vs P100](http://en.community.dell.com/resized-image/__size/1100x0/__key/communityserver-blogs-components-weblogfiles/00-00-00-45-39/3568.table1.PNG) 
 
-
-
-But we aren't interested in P100 or V100 **AANDD** there's a **twist** here, unfortunately on the lower level consumer level GPUs, the FP16 precision performance is **very bad**. This includes 1080Ti and Titan Xp. Taking the numbers from the [report](https://www.microway.com/knowledge-center-articles/comparison-of-nvidia-geforce-gpus-and-nvidia-tesla-gpus/) by Microway.
+But we aren't interested in P100 or V100. We are interested consumer GFX cards.  **BUUUT** there's a **twist** here, unfortunately on the lower level consumer level GPUs, the FP16 precision performance is **very bad**. This includes 1080Ti and Titan Xp. Taking the numbers from the [report](https://www.microway.com/knowledge-center-articles/comparison-of-nvidia-geforce-gpus-and-nvidia-tesla-gpus/) by Microway.
 
 ![Half-precision](/img/volta/fp16gg_Xp.png)
 
-The reason its this is mainly because of the mixed precision which I told above, its not present in the 1080Tis and Titan Xps, so you'd just use FP32 (unlike P100). So, what I'm trying to say is change your code when you buy your volta cards :P 
+The reason of this is mainly because of the mixed precision which I told above, its not present in the 1080Tis and Titan Xps. So we just use FP32 (unlike P100). But in Volta, you'll have to shift to FP16 (to get the best perf) so dont forget to change your code when you buy your volta cards :P 
 
 #### Practical Training Speedups
 
