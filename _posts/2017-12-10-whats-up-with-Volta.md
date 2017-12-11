@@ -74,6 +74,8 @@ LSTM
 
 As you can see, it doesn't give the 5x speedup (P100 vs V100 - **18.6 vs 112**) its supposed to give theoritically. It might be that the standard networks we train still has lot of time that go into other operations. So, the theoretical bound isnt met. I'll have to read up more on this.
 
+Edit: Sorry! Forgot to mention that the Deep Learning libraries should be able to leverage the mixed precision training appropriately to get faster speeds. More on that on a blog post [here](https://devblogs.nvidia.com/parallelforall/mixed-precision-training-deep-neural-networks/) and the paper [here](https://arxiv.org/abs/1710.03740) by Baidu and NVIDIA
+
 #### Price points
 
 - Titan V (3000$) is worth ~ 4 1080Tis (700-800$)
