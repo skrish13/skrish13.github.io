@@ -14,10 +14,12 @@ If want to get in touch or collaborate please mail me or tweet at me (thanks).
 
 - **RADNET: Radiologist Level Accuracy using Deep Learning for HEMORRHAGE detection in CT Scans**
   - Monika Grewal, Muktabh Mayank Srivastava, Pulkit Kumar\*, **Srikrishna Varadarajan\***
+    - Accepted as conference paper at [IEEE International Symposium on Biomedical Imaging (ISBI) 2018](http://biomedicalimaging.org/2018/)
     - [[**_arXiv_**]](https://arxiv.org/abs/1710.04934) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1710-04934) [[**_blog_**]](http://blog.paralleldots.com/technology/deep-learning/ai-matches-the-accuracy-of-trained-radiologists-for-identifying-brain-hemorrhage-in-a-head-to-head-test/)
 
 - **Anatomical labeling of brain CT scan anomalies using multi-context nearest neighbor relation networks**
   - **Srikrishna Varadarajan**, Muktabh Mayank Srivastava, Monika Grewal\*, Pulkit Kumar\*
+    - Accepted as an abstract at [IEEE International Symposium on Biomedical Imaging (ISBI) 2018](http://biomedicalimaging.org/2018/)
     - [[**_arXiv_**]](https://arxiv.org/abs/1710.09180) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1710-09180) [[**_blog_**]](https://paralleldots.xyz/Anatomical-labeling-of-brain-CT-scan-anomalies-using-multi-context-nearest-neighbor-relation-networks)
 
 - **Detection of Tooth caries in Bitewing Radiographs using Deep Learning**
