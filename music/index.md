@@ -10,8 +10,9 @@ I use Spotify, you can find lot of related playlists on my profile over [there](
 
 ### Posts
 ##### Album of the Week 
- - [**AOTWs**](/music/aotw/)
- - Albums which couldn't be in AOTW - [Obvious ones](/music/obvious/)
+ - Album of the Week - [**AOTWs**](/music/aotw/)
+ - Albums which couldn't be in AOTW - [**Obvious ones**](/music/obvious/)
+
 ##### Amazing content about Music in general as well as particular band/artist etc - Videos, News, Album reviews etc etc
   - [**Music Content - General**](/music/mscontent)
   - [**Dream Theater**](/music/dt)
