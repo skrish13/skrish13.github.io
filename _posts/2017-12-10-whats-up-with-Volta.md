@@ -4,6 +4,7 @@ title: What's up with Volta - Nvidia Volta vs Pascal, Titan V & Mixed Precision
 excerpt: "Roundup of Titan V, V100, Volta vs Pascal cards for DL purposes, Mixed precision and Google TPUs"
 categories: [gpu, deep learning]
 comments: True
+mathjax: true
 ---
 
 Couple of days ago Nvidia released their newest badass PC Graphics card - Titan V, but this time specially geared for AI (deep learning to be precise) purposes. This post summarizes what's in it, remove any false notions from hypes, compare against older cards wrt price point, performance and talk a bit about Google TPUs as well.  Lots of people are getting to DL these days so this post should be useful for them as well. This isnt a tutorial for that, if you are interested in that, look [here](http://timdettmers.com/2014/08/14/which-gpu-for-deep-learning/).

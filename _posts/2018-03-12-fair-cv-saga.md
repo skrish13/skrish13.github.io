@@ -1,9 +1,10 @@
 ---
 layout: post
-title: Recent FAIR CV Papers - FPN, RetinaNet,Mask and Mask-X RCNN.
+title: Recent FAIR CV Papers - FPN, RetinaNet, Mask and Mask-X RCNN.
 excerpt: "From FPN to RetinaNet (FocalLoss) to MaskRCNN to Learning to Segment Everything!"
 categories: [computer vision, summary, research]
 comments: True
+mathjax: True
 ---
 
 The post goes from basic building block innovation to CNNs to one shot object detection module. Then moves on to innovation in instance segmentation and finally ends with weakly-semi-supervised way to scale up instance segmentation. The basic outline of the post is as described in the title and excerpt.

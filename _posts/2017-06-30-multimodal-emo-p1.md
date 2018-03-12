@@ -4,6 +4,7 @@ title: Multimodality in Emotion understanding (in videos) - Part 1
 excerpt: "Writing down initial thoughts and approach, critique on current ML objectives and  thoughts on refining the goal"
 categories: [multimodality, research]
 comments: True
+mathjax: true
 ---
 
 I was interested in doing a project which involved multimodality, DL and emotion detection/classification was the one which was easily available and also sounded interesting too. This post is about writing down my initial thoughts and approach, some amount of explanation as to what current ML models lack and providing a better way of thinking to approach the problem. This was written in hindsight, contrary to the timestamp by explaining and reflecting on the ideas formed at that time.
