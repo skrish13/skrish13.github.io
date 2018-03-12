@@ -6,7 +6,7 @@ categories: [computer vision, summary, research]
 comments: True
 ---
 
-{% include mathjax.html %}
+<!-- {% include mathjax.html %} -->
 
 The post goes from basic building block innovation to CNNs to one shot object detection module. Then moves on to innovation in instance segmentation and finally ends with weakly-semi-supervised way to scale up instance segmentation. The basic outline of the post is as described in the title and excerpt.
 
@@ -36,8 +36,8 @@ As I said earlier this is a base network which can be used anywhere, object dete
 
 - FPN for RPNs - Replace the single scale FMap with FPN. They have single scale anchor to each level (no need for multiscale as its FPN). They also show that all levels of the pyramid share similar semantic levels.
 - FasterRCNN - They look at the pyramid in a way similar to output of image pyramid. So the RoI is assigned to a particular level using the formula.
-- $$k$$ = [$k_0$ + $log_2(\sqrt{wh}/244)$]
-- w,h is width, height. k is the level to which RoI is assigned. $k_0$ is level to which w,h=224,224 should be mapped to.
+- $$k$$ = [$$k_0$$ + $$log_2(\sqrt{wh}/244)$$]
+- w,h is width, height. k is the level to which RoI is assigned. $$k_0$$ is level to which w,h=224,224 should be mapped to.
 - Gets SOTA on COCO without any bells and whistles as they call it (in all of the papers haha)
 - They do ablation studies on each module's working and thats how they're able to prove the statements told in the beginning. 
 - They also show how it can be used for segmentation proposal generation as well based on the DeepMask and SharpMask papers.
@@ -66,13 +66,13 @@ It's from the same team, same first author infact. This got published in ICCV 20
 
 This is pretty smart and simple! If your're already familiar with weighted losses this is basically same with a smart weight to put more focus on classifying the hard and tough examples. The formula is given below, it should be self explanatory. 
 
-$CrossEntropyLoss (p_t) = -log(p_t)$
+$$CrossEntropyLoss (p_t) = -log(p_t)$$
 
-$FocalLoss(p_t) = -(1-p_t)^\gamma log(p_t)$
+$$FocalLoss(p_t) = -(1-p_t)^\gamma log(p_t)$$
 
-$WeightedFocalLoss(p_t) = -\alpha_t(1-p_t)^\gamma log(p_t)$
+$$WeightedFocalLoss(p_t) = -\alpha_t(1-p_t)^\gamma log(p_t)$$
 
-$\gamma$ is a hyper-parameter which can be changed. $p_t$ is the probability of the sample from the classifier. Setting $\gamma$ greater than 0 will reduce the weight for well classified samples. $\alpha_t$ is the weight of the class as followed in normal weighted loss functions. In the paper its referred as $\alpha$-balanced loss. Note that this is the classification loss and is combined with the smooth L1 loss for the object detection task in RetinaNet.
+$$\gamma$$ is a hyper-parameter which can be changed. $$p_t$$ is the probability of the sample from the classifier. Setting $$\gamma$$ greater than 0 will reduce the weight for well classified samples. $$\alpha_t$$ is the weight of the class as followed in normal weighted loss functions. In the paper its referred as $$\alpha$$-balanced loss. Note that this is the classification loss and is combined with the smooth L1 loss for the object detection task in RetinaNet.
 
 #### RetinaNet
 
@@ -83,7 +83,7 @@ It was pretty surprising to see that a single stage detector was released from F
 - Two-stage detectors don't have to worry about the imbalance due to the 1st step removing almost all of the imbalance.
 - 2 parts - A backbone (A conv feature extractor eg: FPN) and two task-specific subnetworks (classifier and bbox regressor).
 - Not much (performance) variations in the design choices of the components. 
-- Anchor or AnchorBoxes are the same Anchors from the RPN [5]. It is centered around a sliding window and associated with an aspect ratio. The size and aspect ratio are same as the ones used in [1] $32^2$ to $512^2$ and {1:2, 1:1, 2:1} respectively.
+- Anchor or AnchorBoxes are the same Anchors from the RPN [5]. It is centered around a sliding window and associated with an aspect ratio. The size and aspect ratio are same as the ones used in [1] $$32^2$$ to $$512^2$$ and {1:2, 1:1, 2:1} respectively.
 - At each stage of the FPN, we have the cls+bbox subnets which gives corresponding output for all locations in the anchors. This is shown in the Figure below 
 
 
@@ -107,7 +107,7 @@ I really loved reading this paper, its pretty simple, yes. But lot of explanatio
 
 - It's similar to FasterRCNN, two-stage, with RPN as 1st.
 - Adds a parallel branch for predicting segmentation mask - this is an FCN.
-- Loss is sum of $L_{cls}, L_{box}, L_{mask}$ 
+- Loss is sum of $$L_{cls}, L_{box}, L_{mask}$$ 
 - ROIAlign Layer instead of ROIPool. This basically doesn't round off your (x/spatial_scale) fraction to an integer like in the case of ROIPool. Instead it does bilinear interpolation to find out the pixels at those floating values.
 - For example: Imagine this, ROI height and width is 54,167 respectively. Spatial scale is basically Image size/FMap size (H/h), its also called stride in this context. Usually its 224/14 = 16 (H=224,h=14). 
   - ROIPool: 54/16, 167/16 = **3,10**
@@ -138,11 +138,11 @@ Coming to the paper [4], this is a pretty cool paper as well. As one can imagine
 - It builds up on Mask-RCNN
 - Trains on both inputs with mask and inputs with no mask.
 - Adds a **weight transfer function** between mask and bbox mask.
-- When an input with **no mask** is passed, the $w_{seg}$ predicts the weights to be multiplied with mask features. When an input with mask is passed, the function isn't used, a simple MLP is used instead.
+- When an input with **no mask** is passed, the $$w_{seg}$$ predicts the weights to be multiplied with mask features. When an input with mask is passed, the function isn't used, a simple MLP is used instead.
 - This is shown in the figure below. A is COCO dataset and B is VG. Note the two different paths for different inputs.
-- Backproping both losses will induce a discrepancy in the weights of $w_{seg}$ as for common classes between COCO and VG there are two losses (bbox and mask) while for rest classes its only one (bbox). There's a fix for this
-  - Fix: When back-propping the mask, compute the gradient of predicted mask weights ($\tau$) wrt **weight transfer function** parameters $\theta$ but not bounding box weight $w_{det}^c$ . 
-  - $w^c_{seg} = \tau($stop_grad$(w^c_{seg});\theta)$  where $\tau$ predicted mask weights.
+- Backproping both losses will induce a discrepancy in the weights of $$w_{seg}$$ as for common classes between COCO and VG there are two losses (bbox and mask) while for rest classes its only one (bbox). There's a fix for this
+  - Fix: When back-propping the mask, compute the gradient of predicted mask weights ($$\tau$$) wrt **weight transfer function** parameters $$\theta$$ but not bounding box weight $$w_{det}^c$$ . 
+  - $$w^c_{seg} = \tau($$stop_grad$$(w^c_{seg});\theta)$$  where $$\tau$$ predicted mask weights.
 
 ![Mask^X RCNN Model](/img/fair_saga/learning2seg.png)
 
