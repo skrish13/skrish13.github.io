@@ -26,8 +26,6 @@ Moving to the topic, now, the authors found a clever way to improve on the above
 - Lateral connection: 1x1 Conv and Top-Down pathway is 2x Upsampling. The idea is from the top feature while going down coarse features gets generated (they use hallucinated I'm yet to fully read their actual paper which is named related to that) while the lateral connections adds the more finer details from the bottom-up pathway. I've borrowed a couple of figures from the paper which makes it super easy to visualize.
 - Whats described in the paper is just a simple **demo** of sorts. Its to just show how well the idea works with simple design choices, so one shouldnt be afraid to dream a little bigger and more complex.
 
-
-
 ![Building Block](/img/fair_saga/building_block.png)
 
 As I said earlier this is a base network which can be used anywhere, object detection, segmentation, pose estimation, face detection, all applied areas etc. Its only a few months old and already ~100 citations are there! The actual title is **FPNs for Object Detection**, so the authors go on to use the FPN as baseline in both the RPN (Region Proposal Network) and the Faster-RCNN networks. All key details are explained thoroughly in the paper but useful only to few people I guess so i'm just listing down some points from there.
@@ -43,7 +41,6 @@ As I said earlier this is a base network which can be used anywhere, object dete
 - They also show how it can be used for segmentation proposal generation as well based on the DeepMask and SharpMask papers.
 - One should definetely read the paper (Section 5 onwards) if interested in the implementation details, experiment settings etc.
 
-
 PS: One should note that FPN itself can be seen as a backbone on base ResNet and can be referred as such seperately too. A common way to refer has been Base-NumLayers-FPN **eg:** **ResNet-101-FPN**
 
 #### Code
@@ -53,10 +50,6 @@ PS: One should note that FPN itself can be seen as a backbone on base ResNet and
 - PyTorch - https://github.com/kuangliu/pytorch-fpn (just the network)
 - MXNet - https://github.com/unsky/FPN-mxnet
 - Tensorflow - https://github.com/yangxue0827/FPN_Tensorflow
-
-
-
-
 
 ## RetinaNet - Focal Loss for Dense Object Detection
 
@@ -91,9 +84,8 @@ It was pretty surprising to see that a single stage detector was released from F
 
 - Official Caffe2 - https://github.com/facebookresearch/Detectron/tree/master/configs/12_2017_baselines
 - PyTorch - https://github.com/kuangliu/pytorch-retinanet
-
-
-
+- Keras - https://github.com/fizyr/keras-retinanet
+- MXNet - https://github.com/unsky/RetinaNet
 
 ## Mask R-CNN
 
@@ -118,16 +110,14 @@ I really loved reading this paper, its pretty simple, yes. But lot of explanatio
   - ROIAlign code is anyways available in different libs, check the code repos provided below.
 - Backbone is ResNet-FPN
 
-
 PS - I have written a seperate post as well on Mask-RCNN, it will be put up [here](https://coming.soon) soon.
 
 #### Code
 
 - Official Caffe2 - https://github.com/facebookresearch/Detectron/tree/master/configs/12_2017_baselines
-- MXNet - https://github.com/TuSimple/mx-maskrcnn 
-
-
-
+- Keras - https://github.com/matterport/Mask_RCNN/
+- PyTorch - https://github.com/soeaver/Pytorch_Mask_RCNN/
+- MXNet - https://github.com/TuSimple/mx-maskrcnn
 
 ## Learning to Segment Everything
 
@@ -146,15 +136,11 @@ Coming to the paper [4], this is a pretty cool paper as well. As one can imagine
 
 ![Mask^X RCNN Model](/img/fair_saga/learning2seg.png)
 
-
-
 As they cant show accuracies on VG dataset since no annotations are available. So they take this idea to datasets on which results can be demonstrated. So PASCAL-VOC which has 20 classes and are all common in COCO. So, they train with segmentation labels from VOC and only bbox labels from COCO on those 20 classes. The results are shown on the task of **instance segmentation** on the 20 classes in COCO dataset. The same is done vice versa as well since both ground-truths are available in both dataset. This result is tabulated in below figure taken from the paper.
 
 ![Results of Mask^X RCNN Model](/img/fair_saga/results_segeverything.png)
 
 PS - I'm planning to write a blog on literature survey of papers which use weight prediction method to do impressive tasks, if it turns out to be useful.
-
-
 
 ## Acknowledgement
 
@@ -182,4 +168,3 @@ Thanks to [Jakob Suchan](http://cosy.informatik.uni-bremen.de/staff/jakob-suchan
 
 [9] Krishna, Ranjay, Congcong Li, Oliver Groth, Justin Johnson, Kenji Hata, Joshua Kravitz, Stephanie Chen, Yannis Kalantidis, David A. Shamma, Michael S. Bernstein and Li Fei-Fei. “Visual Genome: Connecting Language and Vision Using Crowdsourced Dense Image Annotations.” International Journal of Computer Vision 123 (2016): 32-73.
 ```
-
