@@ -10,12 +10,6 @@
   {% capture description %}{{ site.description }}{% endcapture %}
 {% endif %}
 
-{% if page.mathjax %}
-<script type="text/javascript" async
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-</script>
-{% endif %}
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -54,5 +48,11 @@
 
 	{% if site.google_analytics and jekyll.environment == 'production' %}
 	{% include analytics.html %}
+	{% endif %}
+
+	{% if page.mathjax %}
+	<script type="text/javascript" async
+	  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+	</script>
 	{% endif %}
 </head>
