@@ -36,7 +36,7 @@ As I said earlier this is a base network which can be used anywhere, object dete
 
 - FPN for RPNs - Replace the single scale FMap with FPN. They have single scale anchor to each level (no need for multiscale as its FPN). They also show that all levels of the pyramid share similar semantic levels.
 - FasterRCNN - They look at the pyramid in a way similar to output of image pyramid. So the RoI is assigned to a particular level using the formula.
-- $k$ = [$k_0$ + $log_2(\sqrt{wh}/244)$]
+- $$k$$ = [$k_0$ + $log_2(\sqrt{wh}/244)$]
 - w,h is width, height. k is the level to which RoI is assigned. $k_0$ is level to which w,h=224,224 should be mapped to.
 - Gets SOTA on COCO without any bells and whistles as they call it (in all of the papers haha)
 - They do ablation studies on each module's working and thats how they're able to prove the statements told in the beginning. 
