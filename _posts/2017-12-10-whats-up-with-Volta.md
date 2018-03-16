@@ -125,3 +125,7 @@ I recently read through a talk by Jeff Dean (Google Brain) at a NIPS17 Workshop,
 ### Future of Volta?
 
 I'm not into speculations so haven't looked a lot into how Nvidia will release its GPUs. It'll be very interesting though, especially now that they can have two different audience and possible seperate focus for each. But GDDR6 is [coming](https://wccftech.com/nvidia-volta-gpus-gddr6-memory-due-early-2018/) in 2018 and Volta will have 16Gbps memory speed, up from 11.4 of GDDR5X of TitanXp (PS: Memory clock/speed conversion between Mhz and Gbps depends on the interface)
+
+### Edit 1
+
+Checkout this great [post](https://medium.com/@u39kun/titan-v-vs-1080-ti-head-to-head-battle-of-the-best-desktop-gpus-on-cnns-d55a19866b7c) and it's corresponding github [repo](https://github.com/u39kun/deep-learning-benchmark) for benchmarking popular models using different libraries. It's in Python 3 and works directly out of the box! Great work by [Yusaku Sako](https://medium.com/@u39kun)! Real world benchmark numbers are available in these resources :)
