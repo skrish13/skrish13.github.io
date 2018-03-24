@@ -128,9 +128,9 @@ Coming to the paper [4], this is a pretty cool paper as well. As one can imagine
 - It builds up on Mask-RCNN
 - Trains on both inputs with mask and inputs with no mask.
 - Adds a **weight transfer function** between mask and bbox mask.
-- When an input with **no mask** is passed, the function $$\tau$$ predicts the weights to be multiplied with mask features. When an input with mask is passed, the function isn't used, a simple MLP is used instead.
-- MLP can be replaced with a FCN or a fusion of FCN+MLP head can also be used. Refer to section 3.4, page 4 for more details.
-- This is shown in the figure below. A is COCO dataset and B is VG. Note the two different paths for different inputs.
+- During training, one can backprop with bbox loss on the whole dataset but one can only backprop with mask loss for inputs which has mask groundtruth (dataset **A**)
+- During inference, when an input is passed, the function $$\tau$$ predicts the weights to be multiplied with mask features. An extention (Section 3.4) of the model uses a fused MLP+FCN model to improve accuracy. Here, a simple MLP is used along with the above.
+- This is shown in the figure below. A is COCO dataset and B is VG. Note the different losses for different inputs while (bbox and mask) outputs are calculated regardless.
 - Backproping both losses will induce a discrepancy in the weights of $$w_{seg}$$ as for common classes between COCO and VG there are two losses (bbox and mask) while for rest classes its only one (bbox). There's a fix for this
   - Fix: When back-propping the mask, compute the gradient of predicted mask weights ($$w_{seg}$$) wrt **weight transfer function** parameters $$\theta$$ but not bounding box weight $$w_{det}^c$$ . 
   - $$w^c_{seg} = \tau($$stop_grad$$(w^c_{seg});\theta)$$  where $$\tau$$ predicted mask weights.
