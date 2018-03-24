@@ -10,17 +10,24 @@ If want to get in touch or collaborate please mail me or tweet at me (thanks).
 
 ## Research
 
-#### 2017
+#### 2018
 
-- **RADNET: Radiologist Level Accuracy using Deep Learning for HEMORRHAGE detection in CT Scans**
-  - Monika Grewal, Muktabh Mayank Srivastava, Pulkit Kumar\*, **Srikrishna Varadarajan\***
-    - Accepted as conference paper at [IEEE International Symposium on Biomedical Imaging (ISBI) 2018](http://biomedicalimaging.org/2018/)
-    - [[**_arXiv_**]](https://arxiv.org/abs/1710.04934) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1710-04934) [[**_blog_**]](http://blog.paralleldots.com/technology/deep-learning/ai-matches-the-accuracy-of-trained-radiologists-for-identifying-brain-hemorrhage-in-a-head-to-head-test/)
+- **Weakly Supervised Object Localization on grocery shelves using simple FCN and Synthetic Dataset**
+  - **Srikrishna Varadarajan\***, Muktabh Mayank Srivastava\*
+    - Submitted to [European Conference on Computer Vision (ECCV) 2018](https://eccv2018.org/).
+    - [[**_arXiv_**]](https://arxiv.org/abs/1803.06813) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1803-06813) [[**_blog_**]](https://coming.soon)
+
+#### 2017
 
 - **Anatomical labeling of brain CT scan anomalies using multi-context nearest neighbor relation networks**
   - **Srikrishna Varadarajan**, Muktabh Mayank Srivastava, Monika Grewal\*, Pulkit Kumar\*
     - Accepted as an abstract at [IEEE International Symposium on Biomedical Imaging (ISBI) 2018](http://biomedicalimaging.org/2018/)
     - [[**_arXiv_**]](https://arxiv.org/abs/1710.09180) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1710-09180) [[**_blog_**]](https://paralleldots.xyz/Anatomical-labeling-of-brain-CT-scan-anomalies-using-multi-context-nearest-neighbor-relation-networks)
+
+- **RADNET: Radiologist Level Accuracy using Deep Learning for HEMORRHAGE detection in CT Scans**
+  - Monika Grewal, Muktabh Mayank Srivastava, Pulkit Kumar\*, **Srikrishna Varadarajan\***
+    - Accepted as conference paper at [IEEE International Symposium on Biomedical Imaging (ISBI) 2018](http://biomedicalimaging.org/2018/)
+    - [[**_arXiv_**]](https://arxiv.org/abs/1710.04934) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1710-04934) [[**_blog_**]](http://blog.paralleldots.com/technology/deep-learning/ai-matches-the-accuracy-of-trained-radiologists-for-identifying-brain-hemorrhage-in-a-head-to-head-test/)
 
 - **Detection of Tooth caries in Bitewing Radiographs using Deep Learning**
   - Muktabh Mayank Srivastava\*, Pratyush Kumar\*, Lalit Pradhan\*, **Srikrishna Varadarajan**
@@ -35,7 +42,7 @@ If want to get in touch or collaborate please mail me or tweet at me (thanks).
 
 ## Contact
 
-- email: skrish at protonmail dot com / **PGP** [0x9b8e286d899dda84](https://pgp.mit.edu/pks/lookup?search=0x9b8e286d899dda84)
+- email: skrish at protonmail dot com
 - email: skrish1113 at gmail dot com / **PGP** [0x91BC3903D865379D](https://pgp.mit.edu/pks/lookup?search=0x91BC3903D865379D) (Please use PGP)
 - twitter: [@skrish_13](https://twitter.com/skrish_13)
 - github: [@skrish13](https://github.com/skrish13)
