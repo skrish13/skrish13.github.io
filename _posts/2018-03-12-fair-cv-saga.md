@@ -45,11 +45,11 @@ PS: One should note that FPN itself can be seen as a backbone on base ResNet and
 
 #### Code
 
-- Official Caffe2 - https://github.com/facebookresearch/Detectron/tree/master/configs/12_2017_baselines
-- Caffe - https://github.com/unsky/FPN
-- PyTorch - https://github.com/kuangliu/pytorch-fpn (just the network)
-- MXNet - https://github.com/unsky/FPN-mxnet
-- Tensorflow - https://github.com/yangxue0827/FPN_Tensorflow
+- [Official Caffe2]https://github.com/facebookresearch/Detectron/tree/master/configs/12_2017_baselines)
+- [Caffe](https://github.com/unsky/FPN)
+- [PyTorch](https://github.com/kuangliu/pytorch-fpn) (just the network)
+- [MXNet](https://github.com/unsky/FPN-mxnet)
+- [Tensorflow](https://github.com/yangxue0827/FPN_Tensorflow)
 
 ## RetinaNet - Focal Loss for Dense Object Detection
 
@@ -82,10 +82,10 @@ It was pretty surprising to see that a single stage detector was released from F
 
 #### Code
 
-- Official Caffe2 - https://github.com/facebookresearch/Detectron/tree/master/configs/12_2017_baselines
-- PyTorch - https://github.com/kuangliu/pytorch-retinanet
-- Keras - https://github.com/fizyr/keras-retinanet
-- MXNet - https://github.com/unsky/RetinaNet
+- [Official Caffe2](https://github.com/facebookresearch/Detectron/tree/master/configs/12_2017_baselines)
+- [PyTorch](https://github.com/kuangliu/pytorch-retinanet)
+- [Keras](https://github.com/fizyr/keras-retinanet)
+- [MXNet](https://github.com/unsky/RetinaNet)
 
 ## Mask R-CNN
 
@@ -114,10 +114,10 @@ PS - I have written a seperate post as well on Mask-RCNN, it will be put up [her
 
 #### Code
 
-- Official Caffe2 - https://github.com/facebookresearch/Detectron/tree/master/configs/12_2017_baselines
-- Keras - https://github.com/matterport/Mask_RCNN/
-- PyTorch - https://github.com/soeaver/Pytorch_Mask_RCNN/
-- MXNet - https://github.com/TuSimple/mx-maskrcnn
+- [Official Caffe2](https://github.com/facebookresearch/Detectron/tree/master/configs/12_2017_baselines)
+- [Great Keras version](https://github.com/matterport/Mask_RCNN/)
+- [PyTorch version ported from Keras](https://github.com/soeaver/Pytorch_Mask_RCNN/)
+- [MXNet](https://github.com/TuSimple/mx-maskrcnn)
 
 ## Learning to Segment Everything
 
@@ -128,10 +128,11 @@ Coming to the paper [4], this is a pretty cool paper as well. As one can imagine
 - It builds up on Mask-RCNN
 - Trains on both inputs with mask and inputs with no mask.
 - Adds a **weight transfer function** between mask and bbox mask.
-- When an input with **no mask** is passed, the $$w_{seg}$$ predicts the weights to be multiplied with mask features. When an input with mask is passed, the function isn't used, a simple MLP is used instead.
+- When an input with **no mask** is passed, the function $$\tau$$ predicts the weights to be multiplied with mask features. When an input with mask is passed, the function isn't used, a simple MLP is used instead.
+- MLP can be replaced with a FCN or a fusion of FCN+MLP head can also be used. Refer to section 3.4, page 4 for more details.
 - This is shown in the figure below. A is COCO dataset and B is VG. Note the two different paths for different inputs.
 - Backproping both losses will induce a discrepancy in the weights of $$w_{seg}$$ as for common classes between COCO and VG there are two losses (bbox and mask) while for rest classes its only one (bbox). There's a fix for this
-  - Fix: When back-propping the mask, compute the gradient of predicted mask weights ($$\tau$$) wrt **weight transfer function** parameters $$\theta$$ but not bounding box weight $$w_{det}^c$$ . 
+  - Fix: When back-propping the mask, compute the gradient of predicted mask weights ($$w_{seg}$$) wrt **weight transfer function** parameters $$\theta$$ but not bounding box weight $$w_{det}^c$$ . 
   - $$w^c_{seg} = \tau($$stop_grad$$(w^c_{seg});\theta)$$  where $$\tau$$ predicted mask weights.
 
 ![Mask^X RCNN Model](/img/fair_saga/learning2seg.png)
@@ -141,6 +142,10 @@ As they cant show accuracies on VG dataset since no annotations are available. S
 ![Results of Mask^X RCNN Model](/img/fair_saga/results_segeverything.png)
 
 PS - I'm planning to write a blog on literature survey of papers which use weight prediction method to do impressive tasks, if it turns out to be useful.
+
+#### Code
+
+- [PyTorch](https://github.com/skrish13/PyTorch-mask-x-rcnn)
 
 ## Acknowledgement
 
