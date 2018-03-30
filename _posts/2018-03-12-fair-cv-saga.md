@@ -133,7 +133,7 @@ Coming to the paper [4], this is a pretty cool paper as well. As one can imagine
 - This is shown in the figure below. A is COCO dataset and B is VG. Note the different losses for different inputs while (bbox and mask) outputs are calculated regardless.
 - Backproping both losses will induce a discrepancy in the weights of $$w_{seg}$$ as for common classes between COCO and VG there are two losses (bbox and mask) while for rest classes its only one (bbox). There's a fix for this
   - Fix: When back-propping the mask, compute the gradient of predicted mask weights ($$w_{seg}$$) wrt **weight transfer function** parameters $$\theta$$ but not bounding box weight $$w_{det}^c$$ . 
-  - $$w^c_{seg} = \tau($$stop_grad$$(w^c_{seg});\theta)$$  where $$\tau$$ predicted mask weights.
+  - $$w^c_{seg} = \tau($$stop_grad$$(w^c_{det});\theta)$$  where $$\tau$$ predicted mask weights.
 
 ![Mask^X RCNN Model](/img/fair_saga/learning2seg.png)
 
