@@ -133,7 +133,7 @@ Coming to the paper [4], this is a pretty cool paper as well. As one can imagine
 - This is shown in the figure below. A is COCO dataset and B is VG. Note the different losses for different inputs while (bbox and mask) outputs are calculated regardless.
 - Backproping both losses will induce a discrepancy in the weights of $$w_{seg}$$ as for common classes between COCO and VG there are two losses (bbox and mask) while for rest classes its only one (bbox). There's a fix for this
   - Fix: When back-propping the mask, compute the gradient of predicted mask weights ($$w_{seg}$$) wrt **weight transfer function** parameters $$\theta$$ but not bounding box weight $$w_{det}^c$$ . 
-  - $$w^c_{seg} = \tau($$stop_grad$$(w^c_{det});\theta)$$  where $$\tau$$ predicted mask weights.
+  - $$w^c_{seg} = \tau($$stop_grad$$(w^c_{det});\theta)$$  where $$\tau$$ predicts the mask weights.
 
 ![Mask^X RCNN Model](/img/fair_saga/learning2seg.png)
 
@@ -157,7 +157,6 @@ Thanks to [Jakob Suchan](http://cosy.informatik.uni-bremen.de/staff/jakob-suchan
 [1] Lin, Tsung-Yi, Piotr Dollár, Ross B. Girshick, Kaiming He, Bharath Hariharan and Serge J. Belongie. “Feature Pyramid Networks for Object Detection.” *2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)* (2017): 936-944.
 
 [2] Lin, Tsung-Yi, Priya Goyal, Ross B. Girshick, Kaiming He and Piotr Dollár. “Focal Loss for Dense Object Detection.” *2017 IEEE International Conference on Computer Vision (ICCV)* (2017): 2999-3007.
-
 
 [3] He, Kaiming, Georgia Gkioxari, Piotr Dollár and Ross B. Girshick. “Mask R-CNN.” *2017 IEEE International Conference on Computer Vision (ICCV)* (2017): 2980-2988.
 
