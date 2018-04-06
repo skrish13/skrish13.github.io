@@ -43,7 +43,7 @@ If want to get in touch or collaborate please mail me or tweet at me (thanks).
 ## Contact
 
 - email: skrish at protonmail dot com
-- email: skrish1113 at gmail dot com / **PGP** [0x91BC3903D865379D](https://pgp.mit.edu/pks/lookup?search=0x91BC3903D865379D) (Please use PGP)
+- email: skrish1113 at gmail dot com / **PGP Fingerprint :** 5CB5 0938 9192 7273 AA4A 08C6 91BC 3903 D865 379D  (Please use PGP)
 - twitter: [@skrish_13](https://twitter.com/skrish_13)
 - github: [@skrish13](https://github.com/skrish13)
 - linkedin: [@skrish13](https://in.linkedin.com/in/skrish13)
