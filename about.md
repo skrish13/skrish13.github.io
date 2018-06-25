@@ -4,7 +4,7 @@ title:  About Me
 permalink: /about/
 ---
 
-Hi! I'm Sri Krishna. I'm primarily a DL research/engineering person @[Paralleldots](https://www.paralleldots.xyz). I did my undergrad @BITS-Pilani, Goa. Nowadays, I mostly work on vision and medical imaging problems. Very much interested in [Multimodal ML](https://arxiv.org/abs/1705.09406) as well. Recent fascination in exploring inter-disciplinary works of [CogSci and DL](https://www.youtube.com/watch?v=3YhJW4Fp1xQ). I listen to music a lot, read more [here](/music/). Some part of this website is used to put down my thoughts and ideas into writing, so read at your own risk xP
+Hi! I'm Sri Krishna. I'm primarily a DL research/engineering person at [Paralleldots](https://www.paralleldots.xyz). I did my undergrad @BITS-Pilani, Goa. Nowadays, I mostly work on vision and medical imaging problems. Very much interested in [Multimodal ML](https://arxiv.org/abs/1705.09406) as well. I listen to music a lot, read more [here](/music/). Some part of this website is used to put down my thoughts and ideas into writing, so read at your own risk :)
 
 If want to get in touch or collaborate please mail me or tweet at me (thanks).
 
@@ -12,22 +12,27 @@ If want to get in touch or collaborate please mail me or tweet at me (thanks).
 
 #### 2018
 
+- **Semantic Analysis of (Reflectional) Visual Symmetry: A Human-Centred Computational Model for Declarative Explainability**
+  - Jakob Suchan, Mehul Bhatt, **Srikrishna Varadarajan**, Seyed Ali Amirshahi, Stella Yu
+    - In submission
+    - [[**_arXiv_**]](https://arxiv.org/abs/1806.07376) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1806-07376) 
+
 - **Weakly Supervised Object Localization on grocery shelves using simple FCN and Synthetic Dataset**
   - **Srikrishna Varadarajan\***, Muktabh Mayank Srivastava\*
-    - Submitted to [European Conference on Computer Vision (ECCV) 2018](https://eccv2018.org/).
+    - In submission
     - [[**_arXiv_**]](https://arxiv.org/abs/1803.06813) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1803-06813) [[**_blog_**]](https://coming.soon)
 
 #### 2017
 
 - **Anatomical labeling of brain CT scan anomalies using multi-context nearest neighbor relation networks**
   - **Srikrishna Varadarajan**, Muktabh Mayank Srivastava, Monika Grewal\*, Pulkit Kumar\*
-    - Accepted as an abstract at [IEEE International Symposium on Biomedical Imaging (ISBI) 2018](http://biomedicalimaging.org/2018/)
+    - Accepted as a poster at [IEEE International Symposium on Biomedical Imaging (ISBI) 2018](http://biomedicalimaging.org/2018/)
     - [[**_arXiv_**]](https://arxiv.org/abs/1710.09180) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1710-09180) [[**_blog_**]](https://paralleldots.xyz/Anatomical-labeling-of-brain-CT-scan-anomalies-using-multi-context-nearest-neighbor-relation-networks)
 
 - **RADNET: Radiologist Level Accuracy using Deep Learning for HEMORRHAGE detection in CT Scans**
   - Monika Grewal, Muktabh Mayank Srivastava, Pulkit Kumar\*, **Srikrishna Varadarajan\***
     - Accepted as conference paper at [IEEE International Symposium on Biomedical Imaging (ISBI) 2018](http://biomedicalimaging.org/2018/)
-    - [[**_arXiv_**]](https://arxiv.org/abs/1710.04934) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1710-04934) [[**_blog_**]](http://blog.paralleldots.com/technology/deep-learning/ai-matches-the-accuracy-of-trained-radiologists-for-identifying-brain-hemorrhage-in-a-head-to-head-test/)
+    - [[**_arXiv_**]](https://arxiv.org/abs/1710.04934) [[**_IEEE Explore_**]](https://ieeexplore.ieee.org/document/8363574/) [[**_bibtex_**]](http://dblp.org/rec/bibtex/conf/isbi/GrewalSKV18) [[**_blog_**]](http://blog.paralleldots.com/technology/deep-learning/ai-matches-the-accuracy-of-trained-radiologists-for-identifying-brain-hemorrhage-in-a-head-to-head-test/)
 
 - **Detection of Tooth caries in Bitewing Radiographs using Deep Learning**
   - Muktabh Mayank Srivastava\*, Pratyush Kumar\*, Lalit Pradhan\*, **Srikrishna Varadarajan**
@@ -47,3 +52,4 @@ If want to get in touch or collaborate please mail me or tweet at me (thanks).
 - twitter: [@skrish_13](https://twitter.com/skrish_13)
 - github: [@skrish13](https://github.com/skrish13)
 - linkedin: [@skrish13](https://in.linkedin.com/in/skrish13)
+- google scholar: [link](https://scholar.google.co.in/citations?user=n1Rvx6kAAAAJ&hl=en)
