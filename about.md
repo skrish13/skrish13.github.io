@@ -12,6 +12,11 @@ If want to get in touch or collaborate please mail me or tweet at me (thanks).
 
 #### 2018
 
+- **Multidomain Document Layout Understanding using Few Shot Object Detection**
+  - **Srikrishna Varadarajan\***, Pranaydeep Singh*, Ankit Narayan Singh, Muktabh Mayank Srivastava
+    - In submission
+    - [[**_paper_**]](https://arxiv.org/abs/1808.07330) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1808-07330)
+
 - **Semantic Analysis of (Reflectional) Visual Symmetry: A Human-Centred Computational Model for Declarative Explainability**
   - Jakob Suchan, Mehul Bhatt, **Srikrishna Varadarajan**, Seyed Ali Amirshahi, Stella Yu
     - Accepted in [Advances in Cognitive Systems (ACS) 2018](http://www.cogsys.org/home)
