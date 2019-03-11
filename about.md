@@ -1,7 +1,7 @@
 ---
 layout: page
 title:  About Me
-permalink: /about/
+permalink: /
 ---
 
 Hi! I'm Sri Krishna. I'm primarily a DL research/engineering person at [Paralleldots](https://www.paralleldots.xyz). I did my undergrad at BITS-Pilani, Goa. Nowadays, I mostly work on computer vision and medical imaging problems. Very much interested in [Multimodal ML](https://arxiv.org/abs/1705.09406) as well. I listen to music a lot, read more [here](/music/). Some part of this website is used to put down my thoughts and ideas into writing, so read at your own risk :)
