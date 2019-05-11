@@ -10,6 +10,13 @@ If want to get in touch or collaborate please mail me or tweet at me (thanks).
 
 ## Research
 
+#### 2019
+
+- **Out of Sight But Not Out of Mind: An ASP Based Online Abduction Framework for Visual Sensemaking in Autonomous Driving**
+  - Jakob Suchan, Mehul Bhatt, **Srikrishna Varadarajan**
+    - Accepted in [International Joint Conference on Artificial Intelligence (IJCAI) - 2019](https://www.ijcai19.org/)
+    - [[**_paper_**]](coming.soon) [[**_bibtex_**]](coming.soon)
+
 #### 2018
 
 - **Multidomain Document Layout Understanding using Few Shot Object Detection**
@@ -45,6 +52,9 @@ If want to get in touch or collaborate please mail me or tweet at me (thanks).
     - [[**_paper_**]](https://arxiv.org/abs/1711.07312) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1711-07312) [[**_blog_**]](dentistry.ai)
 
 #### Talks
+
+- **Weakly Supervised Object Localization on grocery shelves using simple FCN and Synthetic Dataset**
+  - Presented @ [Indian Conference on Computer Vision, Graphics and Image Processing (ICVGIP) 2018](https://cvit.iiit.ac.in/icvgip18/)
 
 - **Multimodal Understanding of Videos using Machine Learning**
   - Presented @ Workshop on [Multimodality in Embodied Experience Design](http://hcc.uni-bremen.de/codesign2017/workshops/mumbai/)
