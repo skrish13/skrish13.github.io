@@ -14,7 +14,7 @@ If want to get in touch or collaborate please mail me or tweet at me (thanks).
 
 - **Deep Semantics for Explainable Visuospatial Intelligence: Perspectives on Integrating Commonsense Spatial Abstractions and Low-Level Neural Features**
   - Mehul Bhatt, Jakob Suchan, **Srikrishna Varadarajan**
-    - Accepted at 14th International Workshop on Neural-Symbolic Learning and Reasoning (NeSy) at IJCAI 2019
+    - [Accepted at 14th International Workshop on Neural-Symbolic Learning and Reasoning (NeSy) at IJCAI 2019](https://sites.google.com/view/nesy19/)
     - [[**_paper_**]](https://www.researchgate.net/publication/333480472_Deep_Semantics_for_Explainable_Visuospatial_Intelligence_Perspectives_on_Integrating_Commonsense_Spatial_Abstractions_and_Low-Level_Neural_Features) [[**_bibtex_**]](coming.soon)
 
 - **Out of Sight But Not Out of Mind: An ASP Based Online Abduction Framework for Visual Sensemaking in Autonomous Driving**
