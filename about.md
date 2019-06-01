@@ -12,10 +12,15 @@ If want to get in touch or collaborate please mail me or tweet at me (thanks).
 
 #### 2019
 
+- **Deep Semantics for Explainable Visuospatial Intelligence: Perspectives on Integrating Commonsense Spatial Abstractions and Low-Level Neural Features**
+  - Mehul Bhatt, Jakob Suchan, **Srikrishna Varadarajan**
+    - Accepted at 14th International Workshop on Neural-Symbolic Learning and Reasoning (NeSy) at IJCAI 2019
+    - [[**_paper_**]](https://www.researchgate.net/publication/333480472_Deep_Semantics_for_Explainable_Visuospatial_Intelligence_Perspectives_on_Integrating_Commonsense_Spatial_Abstractions_and_Low-Level_Neural_Features) [[**_bibtex_**]](coming.soon)
+
 - **Out of Sight But Not Out of Mind: An ASP Based Online Abduction Framework for Visual Sensemaking in Autonomous Driving**
   - Jakob Suchan, Mehul Bhatt, **Srikrishna Varadarajan**
-    - Accepted in [International Joint Conference on Artificial Intelligence (IJCAI) - 2019](https://www.ijcai19.org/)
-    - [[**_paper_**]](coming.soon) [[**_bibtex_**]](coming.soon)
+    - Accepted at [International Joint Conference on Artificial Intelligence (IJCAI) - 2019](https://www.ijcai19.org/)
+    - [[**_paper_**]](https://www.researchgate.net/publication/333521132_Out_of_Sight_But_Not_Out_of_Mind_An_Answer_Set_Programming_Based_Online_Abduction_Framework_for_Visual_Sensemaking_in_Autonomous_Driving) [[**_bibtex_**]](coming.soon)
 
 #### 2018
 
