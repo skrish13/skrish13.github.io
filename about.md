@@ -4,7 +4,7 @@ title:  About Me
 permalink: /
 ---
 
-Hi! I'm Sri Krishna. I'm primarily a DL research/engineering person at [Paralleldots](https://www.paralleldots.xyz). I did my undergrad at BITS-Pilani, Goa. Nowadays, I mostly work on computer vision ~~and medical imaging~~ problems. Very much interested in [Multimodal ML](https://arxiv.org/abs/1705.09406) as well. I listen to music a lot, read more [here](/music/). Some part of this website is used to put down my thoughts and ideas into writing, so read at your own risk :)
+Hi! I'm Sri Krishna. I'm primarily a DL research/engineering person at [Paralleldots](https://www.paralleldots.xyz). I did my undergrad at BITS-Pilani, Goa. Nowadays, I mostly work on computer vision (few shot, fine grained, weakly supervised, object detection) ~~and medical imaging~~ problems. Very much interested in [Multimodal ML](https://arxiv.org/abs/1705.09406) as well. I listen to music a lot, read more [here](/music/). Some part of this website is used to put down my thoughts and ideas into writing, so read at your own risk :)
 
 If want to get in touch or collaborate please mail me or tweet at me (thanks).
 
@@ -19,7 +19,7 @@ If want to get in touch or collaborate please mail me or tweet at me (thanks).
 
 - **Out of Sight But Not Out of Mind: An ASP Based Online Abduction Framework for Visual Sensemaking in Autonomous Driving**
   - Jakob Suchan, Mehul Bhatt, **Srikrishna Varadarajan**
-    - Accepted at [International Joint Conference on Artificial Intelligence (IJCAI) - 2019](https://www.ijcai19.org/)
+    - Accepted at [International Joint Conference on Artificial Intelligence (IJCAI) 2019](https://www.ijcai19.org/)
     - [[**_paper_**]](https://www.researchgate.net/publication/333521132_Out_of_Sight_But_Not_Out_of_Mind_An_Answer_Set_Programming_Based_Online_Abduction_Framework_for_Visual_Sensemaking_in_Autonomous_Driving) [[**_bibtex_**]](coming.soon)
 
 #### 2018
