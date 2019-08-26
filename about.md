@@ -20,6 +20,7 @@ If want to get in touch or collaborate please mail me or tweet at me (thanks).
 - **Out of Sight But Not Out of Mind: An ASP Based Online Abduction Framework for Visual Sensemaking in Autonomous Driving**
   - Jakob Suchan, Mehul Bhatt, **Srikrishna Varadarajan**
     - Accepted at [International Joint Conference on Artificial Intelligence (IJCAI) 2019](https://www.ijcai19.org/)
+    - Distinguished paper honorable mention [Top 3/850 accepted papers]
     - [[**_paper_**]](https://www.researchgate.net/publication/333521132_Out_of_Sight_But_Not_Out_of_Mind_An_Answer_Set_Programming_Based_Online_Abduction_Framework_for_Visual_Sensemaking_in_Autonomous_Driving) [[**_bibtex_**]](coming.soon)
 
 #### 2018
