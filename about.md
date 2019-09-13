@@ -4,24 +4,24 @@ title:  About Me
 permalink: /
 ---
 
-Hi! I'm Sri Krishna. I'm primarily a DL research/engineering person at [Paralleldots](https://www.paralleldots.xyz). I did my undergrad at BITS-Pilani, Goa. Nowadays, I mostly work on computer vision (few shot, fine grained, weakly supervised, object detection) ~~and medical imaging~~ problems. Very much interested in [Multimodal ML](https://arxiv.org/abs/1705.09406) as well. I listen to music a lot, read more [here](/music/). Some part of this website is used to put down my thoughts and ideas into writing, so read at your own risk :)
+Hi! I'm Sri Krishna. I'm primarily a DL research/engineering person at [Paralleldots](https://www.paralleldots.xyz). I also collaborate with the [Cognitive Vision group](https://www.codesign-lab.org/cognitive-vision/) at Orebro Uni/Uni of Bremen. I was associated with [Red Hen Lab](http://www.redhenlab.org/) in the Google's [SoC program](https://summerofcode.withgoogle.com/) for couple of years. I did my undergrad at BITS-Pilani, Goa. Nowadays, I mostly work on computer vision (local features, keypoint/descriptors, few shot, fine grained, weakly supervised, object detection) ~~and medical imaging~~ problems. Very much interested in [Multimodal ML](https://arxiv.org/abs/1705.09406) as well. I listen to music a lot, read more [here](/music/). Some part of this website is used to put down my thoughts and ideas into writing, so read at your own risk :)
 
-If want to get in touch or collaborate please mail me or tweet at me (thanks).
+If want to get in touch or collaborate please reach out to me via email :).
 
 ## Research
 
 #### 2019
 
+- **Out of Sight But Not Out of Mind: An ASP Based Online Abduction Framework for Visual Sensemaking in Autonomous Driving**
+  - Jakob Suchan, Mehul Bhatt, **Srikrishna Varadarajan**
+    - Accepted at [International Joint Conference on Artificial Intelligence (IJCAI) 2019](https://www.ijcai19.org/)
+    - **Distinguished paper honorable mention [Top 3/850 accepted papers]**
+    - [[**_paper_**]](https://www.researchgate.net/publication/333521132_Out_of_Sight_But_Not_Out_of_Mind_An_Answer_Set_Programming_Based_Online_Abduction_Framework_for_Visual_Sensemaking_in_Autonomous_Driving) [[**_bibtex_**]](coming.soon)
+
 - **Deep Semantics for Explainable Visuospatial Intelligence: Perspectives on Integrating Commonsense Spatial Abstractions and Low-Level Neural Features**
   - Mehul Bhatt, Jakob Suchan, **Srikrishna Varadarajan**
     - Accepted at [14th International Workshop on Neural-Symbolic Learning and Reasoning (NeSy) at IJCAI 2019](https://sites.google.com/view/nesy19/)
     - [[**_paper_**]](https://www.researchgate.net/publication/333480472_Deep_Semantics_for_Explainable_Visuospatial_Intelligence_Perspectives_on_Integrating_Commonsense_Spatial_Abstractions_and_Low-Level_Neural_Features) [[**_bibtex_**]](coming.soon)
-
-- **Out of Sight But Not Out of Mind: An ASP Based Online Abduction Framework for Visual Sensemaking in Autonomous Driving**
-  - Jakob Suchan, Mehul Bhatt, **Srikrishna Varadarajan**
-    - Accepted at [International Joint Conference on Artificial Intelligence (IJCAI) 2019](https://www.ijcai19.org/)
-    - Distinguished paper honorable mention [Top 3/850 accepted papers]
-    - [[**_paper_**]](https://www.researchgate.net/publication/333521132_Out_of_Sight_But_Not_Out_of_Mind_An_Answer_Set_Programming_Based_Online_Abduction_Framework_for_Visual_Sensemaking_in_Autonomous_Driving) [[**_bibtex_**]](coming.soon)
 
 #### 2018
 
