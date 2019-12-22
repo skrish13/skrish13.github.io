@@ -12,16 +12,19 @@ If want to get in touch or collaborate please reach out to me via email :).
 
 #### 2019
 
+- **Benchmark for Generic Product Detection: A strong baseline for Dense Object Detection**
+  - **Srikrishna Varadarajan**, Sonaal Kant, Muktabh Mayank Srivastava
+  - In Submission
+  - [[**_paper_**]](https://arxiv.org/abs/1912.09476) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1912-09476)
 - **Out of Sight But Not Out of Mind: An ASP Based Online Abduction Framework for Visual Sensemaking in Autonomous Driving**
   - Jakob Suchan, Mehul Bhatt, **Srikrishna Varadarajan**
     - Accepted at [International Joint Conference on Artificial Intelligence (IJCAI) 2019](https://www.ijcai19.org/)
     - **Distinguished paper honorable mention [Top 3/850 accepted papers]**
-    - [[**_paper_**]](https://www.researchgate.net/publication/333521132_Out_of_Sight_But_Not_Out_of_Mind_An_Answer_Set_Programming_Based_Online_Abduction_Framework_for_Visual_Sensemaking_in_Autonomous_Driving) [[**_bibtex_**]](coming.soon)
-
+    - [[**_paper_**]](https://www.ijcai.org/proceedings/2019/260) [[**_bibtex_**]](https://www.ijcai.org/proceedings/2019/bibtex/260)
 - **Deep Semantics for Explainable Visuospatial Intelligence: Perspectives on Integrating Commonsense Spatial Abstractions and Low-Level Neural Features**
   - Mehul Bhatt, Jakob Suchan, **Srikrishna Varadarajan**
     - Accepted at [14th International Workshop on Neural-Symbolic Learning and Reasoning (NeSy) at IJCAI 2019](https://sites.google.com/view/nesy19/)
-    - [[**_paper_**]](https://www.researchgate.net/publication/333480472_Deep_Semantics_for_Explainable_Visuospatial_Intelligence_Perspectives_on_Integrating_Commonsense_Spatial_Abstractions_and_Low-Level_Neural_Features) [[**_bibtex_**]](coming.soon)
+    - [[**_paper_**]](https://www.researchgate.net/publication/333480472_Deep_Semantics_for_Explainable_Visuospatial_Intelligence_Perspectives_on_Integrating_Commonsense_Spatial_Abstractions_and_Low-Level_Neural_Features) [[**_bibtex_**]](http://oru.diva-portal.org/smash/record.jsf?pid=diva2%3A1356159&dswid=-7104)
 
 #### 2018
 
