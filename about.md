@@ -12,10 +12,10 @@ If want to get in touch or collaborate please reach out to me via email :).
 
 #### 2019
 
-- **Benchmark for Generic Product Detection: A strong baseline for Dense Object Detection**
+- **Benchmark for Generic Product Detection: A Low Data Baseline for Dense Object Detection**
   - **Srikrishna Varadarajan**, Sonaal Kant, Muktabh Mayank Srivastava
-  - In Submission
-  - [[**_paper_**]](https://arxiv.org/abs/1912.09476) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1912-09476)
+    - Accepted as regular paper at ICIAR 2020
+    - [[**_paper_**]](https://arxiv.org/abs/1912.09476) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1912-09476)
 - **Out of Sight But Not Out of Mind: An ASP Based Online Abduction Framework for Visual Sensemaking in Autonomous Driving**
   - Jakob Suchan, Mehul Bhatt, **Srikrishna Varadarajan**
     - Accepted at [International Joint Conference on Artificial Intelligence (IJCAI) 2019](https://www.ijcai19.org/)
@@ -29,8 +29,8 @@ If want to get in touch or collaborate please reach out to me via email :).
 #### 2018
 
 - **Multidomain Document Layout Understanding using Few Shot Object Detection**
-  - **Srikrishna Varadarajan\***, Pranaydeep Singh*, Ankit Narayan Singh, Muktabh Mayank Srivastava
-    - In submission
+  - Pranaydeep Singh*, **Srikrishna Varadarajan\***, Ankit Narayan Singh, Muktabh Mayank Srivastava
+    - Accepted as a regular paper at ICIAR 2020
     - [[**_paper_**]](https://arxiv.org/abs/1808.07330) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1808-07330)
 
 - **Semantic Analysis of (Reflectional) Visual Symmetry: A Human-Centred Computational Model for Declarative Explainability**
