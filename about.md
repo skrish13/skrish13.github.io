@@ -10,6 +10,13 @@ If want to get in touch or collaborate please reach out to me via email :).
 
 ## Research
 
+#### 2020
+
+- **Driven by Commonsense: On the Role of Human-Centred Visual Explainability for Autonomous Vehicles**
+  - Jakob Suchan, Mehul Bhatt, **Srikrishna Varadarajan**
+    - Accepted at [European Conference on Artificial Intelligence (ECAI) 2020](https://ecai2020.eu/)
+    - [[**_paper_**]](https://www.researchgate.net/publication/339416618_Driven_by_Commonsense_On_the_Role_of_Human-Centred_Visual_Explainability_for_Autonomous_Vehicles) [[**_bibtex_**]](coming.soon)
+
 #### 2019
 
 - **Benchmark for Generic Product Detection: A Low Data Baseline for Dense Object Detection**
