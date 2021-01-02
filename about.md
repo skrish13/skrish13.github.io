@@ -12,6 +12,12 @@ If you want to get in touch or collaborate please reach out to me via email :).
 
 #### 2020
 
+- **Commonsense Visual Sensemaking for Autonomous Driving: On Generalised Neurosymbolic Online Abduction Integrating Vision and Semantics**
+  - Jakob Suchan, Mehul Bhatt, **Srikrishna Varadarajan**
+    - Extended version of IJCAI paper, contributed submission at [Artificial Intelligence Journal (AIJ)](https://www.journals.elsevier.com/artificial-intelligence/)
+    - [[**_paper_**]](https://arxiv.org/abs/2012.14359v1) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-2012-14359)
+
+
 - **Driven by Commonsense: On the Role of Human-Centred Visual Explainability for Autonomous Vehicles**
   - Jakob Suchan, Mehul Bhatt, **Srikrishna Varadarajan**
     - Accepted at [European Conference on Artificial Intelligence (ECAI) 2020](https://ecai2020.eu/)
