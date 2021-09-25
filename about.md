@@ -10,13 +10,18 @@ If you want to get in touch or collaborate please reach out to me via email :).
 
 ## Research
 
+#### 2021
+- **Semi-supervised Learning for Dense Object Detection in Retail Scenes**
+  - Jaydeep Chauhan, **Srikrishna Varadarajan**, Muktabh Mayank Srivastava
+    - Paper featured at [RetailVision Workshop at CVPR 2021](https://retailvisionworkshop.github.io/)
+    - [[**_paper_**]](https://arxiv.org/abs/2107.02114) [[**_bibtex_**]](https://dblp.uni-trier.de/rec/journals/corr/abs-2107-02114.html?view=bibtex)
+
 #### 2020
 
 - **Commonsense Visual Sensemaking for Autonomous Driving: On Generalised Neurosymbolic Online Abduction Integrating Vision and Semantics**
   - Jakob Suchan, Mehul Bhatt, **Srikrishna Varadarajan**
     - Extended version of IJCAI paper, contributed submission at [Artificial Intelligence Journal (AIJ)](https://www.journals.elsevier.com/artificial-intelligence/)
     - [[**_paper_**]](https://arxiv.org/abs/2012.14359v1) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-2012-14359)
-
 
 - **Driven by Commonsense: On the Role of Human-Centred Visual Explainability for Autonomous Vehicles**
   - Jakob Suchan, Mehul Bhatt, **Srikrishna Varadarajan**
