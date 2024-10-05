@@ -4,11 +4,53 @@ title:  About Me
 permalink: /
 ---
 
-Hi! I'm Sri Krishna. I'm primarily a DL research/engineering person at [Paralleldots](https://www.paralleldots.xyz). I also collaborate with the [Cognitive Vision group](https://www.codesign-lab.org/cognitive-vision/) at Orebro Uni/Uni of Bremen. I was associated with [Red Hen Lab](http://www.redhenlab.org/) in the Google's [SoC program](https://summerofcode.withgoogle.com/) for couple of years. I did my undergrad at BITS-Pilani, Goa. Nowadays, I mostly work on computer vision (local features, keypoint/descriptors, few shot, fine grained, weakly supervised, object detection). Earlier, I worked on medical imaging for real world. Very much interested in [Multimodal ML](https://arxiv.org/abs/1705.09406) as well. I listen to music a lot, read more [here](/music/). Some part of this website is used to put down my thoughts and ideas into writing, so read at your own risk :)
+Hi! I'm Sri Krishna. Currently, I'm a co-founder of an AI startup working in the intersection of AI and UI-UX Design. Previously, I've worked as a founding engineer at [ImagoAI](https://imagoai.com) and [Paralleldots](https://www.paralleldots.xyz). I also collaborated with the [Cognitive Vision group](https://www.codesign-lab.org/cognitive-vision/) at Orebro Uni/Uni of Bremen. I was associated with [Red Hen Lab](http://www.redhenlab.org/) in the Google's [SoC program](https://summerofcode.withgoogle.com/) for couple of years. I did my undergrad at BITS-Pilani, Goa. At Paralleldots, I mostly worked on computer vision (local features, keypoint/descriptors, few shot, fine grained, weakly supervised, object detection) applied to retail tasks. Earlier, I worked on medical imaging for the real world. Was very much interested in [Multimodal ML](https://arxiv.org/abs/1705.09406) as well before the LLM era. I listen to music a lot, and used to write about it [here](/music/). Some part of this website is used to put down my thoughts and ideas into writing, so read at your own risk :)
 
 If you want to get in touch or collaborate please reach out to me via email :).
 
+## Products
+
+#### 2023-Present
+
+- [Flek AI](https://flek.ai)
+  - Built multiple products in the product design space
+  - Figma Plugin & NPM package to sync design and frontend code
+  - Diffusion based models to create product design inspirations from text prompts
+  - ControlNet based models to convert layout sketches into full-fledged designs based on a design system
+  - Parametrized model to generate visual design palletes for design systems from textual prompts
+  - Figma Plugin to customize screens and flows based on existing UI Kits
+  - Figma Plugin to generate mobile UI screens from text prompts. Using Multimodal LLMs.
+  - Figma Plugin to help with UI Audits using Multimodal LLMs.
+  - Understanding of design systems and generation of UI assets following design system guidelines.
+  - Product design platform with following AI Copilots
+    - Design System Generation, PRD Generation, Flow Generation
+    - Sitemap Generation, Wireframe Generation, Design Generation & Frontend Sync
+
+#### 2022-2023
+
+- [ImagoAI](https://imagoai.com)
+  - Founding engineer, building and deploying cutting edge hyperspectral AI models for food quality estimation.
+
+#### 2018-2022
+
+- [Shelfwatch](https://paralleldots.com/shelfwatch)
+  - Pivoted from Medical AI to revenue making products.
+  - Built the ML for the retail computer visionproduct from scratch to 1M+ ARR, alongside a brilliant team of engineers.
+
+#### 2016-2018
+
+- [Diagnosis IO](https://www.diagnosis.io)
+  - Built and deployed AI models on head CT scans to help in triaging brain haemorrhage patients
+
+- [Dentistry AI](https://www.dentistry.ai)
+  - Built and deployed AI models on bitewing X-rays to help in detecting tooth caries
+
 ## Research
+
+#### 2023
+- **Visual Sensemaking Needs Both Vision and Semantics: On Logic-Based Declarative Neurosymbolism for Reasoning about Space and Motion**
+  - Jakob Suchan, Mehul Bhatt, **Srikrishna Varadarajan**
+  - 39th International Conference on Logic Programming (ICLP 2023), 393-395
 
 #### 2021
 - **Semi-supervised Learning for Dense Object Detection in Retail Scenes**
@@ -90,8 +132,8 @@ If you want to get in touch or collaborate please reach out to me via email :).
 ## Contact
 
 - email: skrish at protonmail dot com
-- email: skrish1113 at gmail dot com / **PGP Fingerprint :** 5CB5 0938 9192 7273 AA4A 08C6 91BC 3903 D865 379D  (Please use PGP)
+- email: skrish1113 at gmail dot com 
 - twitter: [@skrish_13](https://twitter.com/skrish_13)
 - github: [@skrish13](https://github.com/skrish13)
 - linkedin: [@skrish13](https://in.linkedin.com/in/skrish13)
-- google scholar: [link](https://scholar.google.co.in/citations?user=n1Rvx6kAAAAJ&hl=en)
+- google scholar: [link](https://scholar.google.com/citations?hl=en&user=aOMyY-IAAAAJ)
