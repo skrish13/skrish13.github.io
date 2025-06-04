@@ -13,18 +13,19 @@ If you want to get in touch or collaborate please reach out to me via email :).
 #### 2023-Present
 
 - [Flek AI](https://flek.ai)
-  - Built multiple products in the product design space
+  - Built multiple products and prototypes in the product design space
   - Figma Plugin & NPM package to sync design and frontend code
   - Diffusion based models to create product design inspirations from text prompts
   - ControlNet based models to convert layout sketches into full-fledged designs based on a design system
   - Parametrized model to generate visual design palletes for design systems from textual prompts
   - Figma Plugin to customize screens and flows based on existing UI Kits
-  - Figma Plugin to generate mobile UI screens from text prompts. Using Multimodal LLMs.
+  - Figma Plugin to generate mobile UI screens from text prompts using Multimodal LLMs. (4k+ users. 30k+ signups)
   - Figma Plugin to help with UI Audits using Multimodal LLMs.
-  - Understanding of design systems and generation of UI assets following design system guidelines.
+  - Tool to understanding of design systems and generate UI assets following design system guidelines.
   - Product design platform with following AI Copilots
     - Design System Generation, PRD Generation, Flow Generation
     - Sitemap Generation, Wireframe Generation, Design Generation & Frontend Sync
+  - Tool for automating UI variant generation and automatic deployment in SDUI (Server-Driven UI) apps 
 
 #### 2022-2023
 
@@ -35,7 +36,7 @@ If you want to get in touch or collaborate please reach out to me via email :).
 
 - [Shelfwatch](https://paralleldots.com/shelfwatch)
   - Pivoted from Medical AI to revenue making products.
-  - Built the ML for the retail computer visionproduct from scratch to 1M+ ARR, alongside a brilliant team of engineers.
+  - Built the ML for the retail computer vision product from scratch to 1M+ ARR, alongside a brilliant team of engineers.
 
 #### 2016-2018
 
