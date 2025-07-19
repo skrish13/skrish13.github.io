@@ -22,10 +22,11 @@ If you want to get in touch or collaborate please reach out to me via email :).
   - Figma Plugin to generate mobile UI screens from text prompts using Multimodal LLMs. (4k+ users. 30k+ signups)
   - Figma Plugin to help with UI Audits using Multimodal LLMs.
   - Tool to understanding of design systems and generate UI assets following design system guidelines.
-  - Product design platform with following AI Copilots
+  - MVP for Product design platform with following AI Copilots
     - Design System Generation, PRD Generation, Flow Generation
     - Sitemap Generation, Wireframe Generation, Design Generation & Frontend Sync
   - Tool for automating UI variant generation and automatic deployment in SDUI (Server-Driven UI) apps 
+  - Training VLMs for improved UI codegen with visual feedback (based on rendered UIs and input screenshots)
 
 #### 2022-2023
 
@@ -56,70 +57,70 @@ If you want to get in touch or collaborate please reach out to me via email :).
 #### 2021
 - **Semi-supervised Learning for Dense Object Detection in Retail Scenes**
   - Jaydeep Chauhan, **Srikrishna Varadarajan**, Muktabh Mayank Srivastava
-    - Paper featured at [RetailVision Workshop at CVPR 2021](https://retailvisionworkshop.github.io/)
-    - [[**_paper_**]](https://arxiv.org/abs/2107.02114) [[**_bibtex_**]](https://dblp.uni-trier.de/rec/journals/corr/abs-2107-02114.html?view=bibtex)
+  - Paper featured at [RetailVision Workshop at CVPR 2021](https://retailvisionworkshop.github.io/)
+  - [[**_paper_**]](https://arxiv.org/abs/2107.02114) [[**_bibtex_**]](https://dblp.uni-trier.de/rec/journals/corr/abs-2107-02114.html?view=bibtex)
 
 #### 2020
 
 - **Commonsense Visual Sensemaking for Autonomous Driving: On Generalised Neurosymbolic Online Abduction Integrating Vision and Semantics**
   - Jakob Suchan, Mehul Bhatt, **Srikrishna Varadarajan**
-    - Extended version of IJCAI paper, contributed submission at [Artificial Intelligence Journal (AIJ)](https://www.journals.elsevier.com/artificial-intelligence/)
-    - [[**_paper_**]](https://arxiv.org/abs/2012.14359v1) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-2012-14359)
+  - Extended version of IJCAI paper, contributed submission at [Artificial Intelligence Journal (AIJ)](https://www.journals.elsevier.com/artificial-intelligence/)
+  - [[**_paper_**]](https://arxiv.org/abs/2012.14359v1) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-2012-14359)
 
 - **Driven by Commonsense: On the Role of Human-Centred Visual Explainability for Autonomous Vehicles**
   - Jakob Suchan, Mehul Bhatt, **Srikrishna Varadarajan**
-    - Accepted at [European Conference on Artificial Intelligence (ECAI) 2020](https://ecai2020.eu/)
-    - [[**_paper_**]](https://www.researchgate.net/publication/339416618_Driven_by_Commonsense_On_the_Role_of_Human-Centred_Visual_Explainability_for_Autonomous_Vehicles) [[**_bibtex_**]](coming.soon)
+  - Accepted at [European Conference on Artificial Intelligence (ECAI) 2020](https://ecai2020.eu/)
+  - [[**_paper_**]](https://www.researchgate.net/publication/339416618_Driven_by_Commonsense_On_the_Role_of_Human-Centred_Visual_Explainability_for_Autonomous_Vehicles) [[**_bibtex_**]](coming.soon)
 
 #### 2019
 
 - **Benchmark for Generic Product Detection: A Low Data Baseline for Dense Object Detection**
   - **Srikrishna Varadarajan**, Sonaal Kant, Muktabh Mayank Srivastava
-    - Accepted as regular paper at ICIAR 2020
-    - [[**_paper_**]](https://arxiv.org/abs/1912.09476) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1912-09476)
+  - Accepted as regular paper at ICIAR 2020
+  - [[**_paper_**]](https://arxiv.org/abs/1912.09476) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1912-09476)
 - **Out of Sight But Not Out of Mind: An ASP Based Online Abduction Framework for Visual Sensemaking in Autonomous Driving**
   - Jakob Suchan, Mehul Bhatt, **Srikrishna Varadarajan**
-    - Accepted at [International Joint Conference on Artificial Intelligence (IJCAI) 2019](https://www.ijcai19.org/)
-    - **Distinguished paper honorable mention [Top 3/850 accepted papers]**
-    - [[**_paper_**]](https://www.ijcai.org/proceedings/2019/260) [[**_bibtex_**]](https://www.ijcai.org/proceedings/2019/bibtex/260)
+  - Accepted at [International Joint Conference on Artificial Intelligence (IJCAI) 2019](https://www.ijcai19.org/)
+  - **Distinguished paper honorable mention [Top 3/850 accepted papers]**
+  - [[**_paper_**]](https://www.ijcai.org/proceedings/2019/260) [[**_bibtex_**]](https://www.ijcai.org/proceedings/2019/bibtex/260)
 - **Deep Semantics for Explainable Visuospatial Intelligence: Perspectives on Integrating Commonsense Spatial Abstractions and Low-Level Neural Features**
   - Mehul Bhatt, Jakob Suchan, **Srikrishna Varadarajan**
-    - Accepted at [14th International Workshop on Neural-Symbolic Learning and Reasoning (NeSy) at IJCAI 2019](https://sites.google.com/view/nesy19/)
-    - [[**_paper_**]](https://www.researchgate.net/publication/333480472_Deep_Semantics_for_Explainable_Visuospatial_Intelligence_Perspectives_on_Integrating_Commonsense_Spatial_Abstractions_and_Low-Level_Neural_Features) [[**_bibtex_**]](http://oru.diva-portal.org/smash/record.jsf?pid=diva2%3A1356159&dswid=-7104)
+  - Accepted at [14th International Workshop on Neural-Symbolic Learning and Reasoning (NeSy) at IJCAI 2019](https://sites.google.com/view/nesy19/)
+  - [[**_paper_**]](https://www.researchgate.net/publication/333480472_Deep_Semantics_for_Explainable_Visuospatial_Intelligence_Perspectives_on_Integrating_Commonsense_Spatial_Abstractions_and_Low-Level_Neural_Features) [[**_bibtex_**]](http://oru.diva-portal.org/smash/record.jsf?pid=diva2%3A1356159&dswid=-7104)
 
 #### 2018
 
 - **Multidomain Document Layout Understanding using Few Shot Object Detection**
   - Pranaydeep Singh*, **Srikrishna Varadarajan\***, Ankit Narayan Singh, Muktabh Mayank Srivastava
-    - Accepted as a regular paper at ICIAR 2020
-    - [[**_paper_**]](https://arxiv.org/abs/1808.07330) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1808-07330)
+  - Accepted as a regular paper at ICIAR 2020
+  - [[**_paper_**]](https://arxiv.org/abs/1808.07330) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1808-07330)
 
 - **Semantic Analysis of (Reflectional) Visual Symmetry: A Human-Centred Computational Model for Declarative Explainability**
   - Jakob Suchan, Mehul Bhatt, **Srikrishna Varadarajan**, Seyed Ali Amirshahi, Stella Yu
-    - Accepted in [Advances in Cognitive Systems (ACS) 2018](http://www.cogsys.org/abstracts/abstract-6-6)
-    - [[**_paper_**]](https://arxiv.org/abs/1806.07376) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1806-07376) 
+  - Accepted in [Advances in Cognitive Systems (ACS) 2018](http://www.cogsys.org/abstracts/abstract-6-6)
+  - [[**_paper_**]](https://arxiv.org/abs/1806.07376) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1806-07376) 
 
 - **Weakly Supervised Object Localization on grocery shelves using simple FCN and Synthetic Dataset**
   - **Srikrishna Varadarajan\***, Muktabh Mayank Srivastava\*
-    - Accepted as conference paper at [Indian Conference on Computer Vision, Graphics and Image Processing (ICVGIP) 2018](https://cvit.iiit.ac.in/icvgip18/)
-    - [[**_paper_**]](https://arxiv.org/abs/1803.06813) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1803-06813)
+  - Accepted as conference paper at [Indian Conference on Computer Vision, Graphics and Image Processing (ICVGIP) 2018](https://cvit.iiit.ac.in/icvgip18/)
+  - [[**_paper_**]](https://arxiv.org/abs/1803.06813) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1803-06813)
 
 #### 2017
 
 - **Anatomical labeling of brain CT scan anomalies using multi-context nearest neighbor relation networks**
   - **Srikrishna Varadarajan**, Muktabh Mayank Srivastava, Monika Grewal\*, Pulkit Kumar\*
-    - Accepted as poster at [IEEE International Symposium on Biomedical Imaging (ISBI) 2018](http://biomedicalimaging.org/2018/)
-    - [[**_paper_**]](https://arxiv.org/abs/1710.09180) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1710-09180) [[**_blog_**]](https://paralleldots.xyz/Anatomical-labeling-of-brain-CT-scan-anomalies-using-multi-context-nearest-neighbor-relation-networks)
+  - Accepted as poster at [IEEE International Symposium on Biomedical Imaging (ISBI) 2018](http://biomedicalimaging.org/2018/)
+  - [[**_paper_**]](https://arxiv.org/abs/1710.09180) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1710-09180) [[**_blog_**]](https://paralleldots.xyz/Anatomical-labeling-of-brain-CT-scan-anomalies-using-multi-context-nearest-neighbor-relation-networks)
 
 - **RADNET: Radiologist Level Accuracy using Deep Learning for HEMORRHAGE detection in CT Scans**
   - Monika Grewal, Muktabh Mayank Srivastava, **Srikrishna Varadarajan\***, Pulkit Kumar\*
-    - Accepted as conference paper at [IEEE International Symposium on Biomedical Imaging (ISBI) 2018](http://biomedicalimaging.org/2018/)
-    - [[**_IEEE Explore_**]](https://ieeexplore.ieee.org/document/8363574/) [[**_paper_**]](https://arxiv.org/abs/1710.04934) [[**_bibtex_**]](http://dblp.org/rec/bibtex/conf/isbi/GrewalSKV18) [[**_blog_**]](http://blog.paralleldots.com/technology/deep-learning/ai-matches-the-accuracy-of-trained-radiologists-for-identifying-brain-hemorrhage-in-a-head-to-head-test/)
+  - Accepted as conference paper at [IEEE International Symposium on Biomedical Imaging (ISBI) 2018](http://biomedicalimaging.org/2018/)
+  - [[**_IEEE Explore_**]](https://ieeexplore.ieee.org/document/8363574/) [[**_paper_**]](https://arxiv.org/abs/1710.04934) [[**_bibtex_**]](http://dblp.org/rec/bibtex/conf/isbi/GrewalSKV18) [[**_blog_**]](http://blog.paralleldots.com/technology/deep-learning/ai-matches-the-accuracy-of-trained-radiologists-for-identifying-brain-hemorrhage-in-a-head-to-head-test/)
 
 - **Detection of Tooth caries in Bitewing Radiographs using Deep Learning**
   - Muktabh Mayank Srivastava\*, Pratyush Kumar\*, Lalit Pradhan\*, **Srikrishna Varadarajan**
-    - Accepted at **NIPS 2017** Workshop - [ML for Health](https://ml4health.github.io/2017/).
-    - [[**_paper_**]](https://arxiv.org/abs/1711.07312) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1711-07312) [[**_blog_**]](dentistry.ai)
+  - Accepted at **NIPS 2017** Workshop - [ML for Health](https://ml4health.github.io/2017/).
+  - [[**_paper_**]](https://arxiv.org/abs/1711.07312) [[**_bibtex_**]](http://dblp.org/rec/bibtex/journals/corr/abs-1711-07312) [[**_blog_**]](dentistry.ai)
 
 #### Talks
 
